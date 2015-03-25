@@ -1,8 +1,15 @@
 # openurl
-Open URL console application
 
-openurl.exe [url]
+**Usage**: <br />
+openurl [url]
 
-Schemeless URL should work too, app is appending "http" by default.
+App is checking if [url] start with one of the following: 
 
-Binaries: [https://github.com/andrijac/openurl/tree/master/Bin](https://github.com/andrijac/openurl/tree/master/Bin)
+- "http:" 
+- "https:" 
+- "ftp:"
+- "file:" 
+
+If not found, app is appending "http://" by default.
+
+Binary: [https://github.com/andrijac/openurl/tree/master/Bin](https://github.com/andrijac/openurl/tree/master/Bin)
